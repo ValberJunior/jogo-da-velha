@@ -1,0 +1,152 @@
+body {
+
+
+  background-color: #663399;
+
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+  display:flex;
+  flex-direction: column;
+  align-content: center ;
+  justify-content: center;
+}
+
+.volumebar {
+  display: flex;
+  justify-content: flex-start;
+
+  font-size: 30px;
+}
+
+#volume{
+
+ width:40px;
+ cursor: pointer;
+
+  color: rgb(175, 173, 173);
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0f1157;
+}
+
+.container {
+  width: 350px;
+  padding: 3% 10% 5% 10%;
+  background-color: #fcfcfc00;
+
+  border-radius: 50px;
+  
+  margin:auto;
+  margin-top: 2%;
+}
+
+#title {
+
+  text-align: center;
+  font-size: 60px;
+  color: #f3ef04;
+
+  text-shadow: 20px 0px 15px #00000042;
+
+  font-family: "Luckiest Guy", cursive;
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0f1157;
+
+}
+
+
+.player{
+  width: 100%;
+  height: 100px;
+
+  margin: auto;
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50px;
+
+  border: 2px solid #460446;
+  background-color:#460446af;
+  margin:3%;
+
+  cursor:pointer;
+
+  transition: all 0.5s 0.1s linear;
+
+}
+
+.btn:hover{
+  width: 120px;
+  height: 120px;
+
+  border-radius: 100px;
+
+  border: 2px solid #FFFFFF;
+  background-color:#460446;
+
+}
+
+.menu {
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+
+}
+
+#back{
+  
+    background-color: #f3ef04;
+    border: 4px solid #0f1157;
+    padding: 10px 30px 10px 30px;
+
+    color:#0f1157;
+  
+    border-radius: 50px;
+  
+    font-size: 15px;
+  
+    font-weight: bolder;
+  
+    cursor: pointer;
+  
+    font-family: "Press Start 2P", cursive;
+
+    transition: all 0.5s 0.1s linear;
+
+  
+  }
+
+  #back:hover{
+  
+
+    padding: 15px 35px 15px 35px;
+
+  
+    border-radius: 50px;
+  
+    font-size: 17px;
+  
+  }
+
+  /*--- Pequena alteração para versão mobile*/
+
+  @media screen and (max-width:450px){
+
+    .container {
+    box-sizing: border-box;
+    }
+    
+  }
+  

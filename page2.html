@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./assets/logo.png' rel='icon' type='image/png'>
+    <link href='./css/page2.css' rel='stylesheet' type='text/css'>
+    <title>Jogo da Velha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <!--Icones-->
+    <script src="https://kit.fontawesome.com/d2883e7411.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div class='stage'>
+
+<div>
+    <div class='square sq1' id='0'></div>
+    <div class='square sq2' id='1'></div>
+    <div class='square sq3' id='2'></div>
+</div>
+
+<div>
+    <div class='square sq4' id='3'></div>
+    <div class='square sq5' id='4'></div>
+    <div class='square sq6' id='5'></div>
+</div>
+
+<div>
+    <div class='square sq7' id='6'></div>
+    <div class='square sq8' id='7'></div>
+    <div class='square sq9' id='8'></div>
+</div>
+
+
+</div>
+
+
+<button id='restart' class='btn'> <i class="fas fa-undo-alt"></i> </button>
+
+<a href='./index.html'><button id='voltar' class='btn'> <i class="fas fa-home"></i> </button></a>
+
+
+
+<!--Os sons do Jogo-->
+<audio id='audio-end-game'><source src='./assets/endGame.mp3' type='audio/mp3'></audio>
+<audio id='touch'><source src='./assets/touch.mp3' type='audio/mp3'></audio>
+ 
+<script src='./script/game.js'></script> 
+<script src='./script/interface.js'></script>     
+</body>
+</html>

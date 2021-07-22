@@ -1,0 +1,118 @@
+*{margin:0; padding:0;}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #27044b ;
+
+    background-image: url(../assets/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+  
+    text-align: center;
+}
+
+.stage{
+    background-color:#fdfdfd00;
+    width: auto;
+    margin:auto;
+
+    margin-top: 5%;
+}
+.square{
+    width:100px;
+    height:100px;
+    background-color: #27044bad;
+    display: inline-block;
+}
+
+:root{
+    --var-color:#FFFFFF;
+}
+
+.sq1{ border-bottom: 10px solid var(--var-color);
+      border-right: 10px solid var(--var-color);}
+
+.sq2{border-bottom: 10px solid var(--var-color); }
+
+.sq3{ border-bottom: 10px solid var(--var-color);
+      border-left: 10px solid var(--var-color); }
+
+.sq4{ border-bottom: 10px solid var(--var-color);
+      border-right: 10px solid var(--var-color); }
+
+.sq5{ border-bottom: 10px solid var(--var-color);}
+
+.sq6{ border-left: 10px solid var(--var-color);
+      border-bottom: 10px solid var(--var-color); }
+
+.sq7{ border-right: 10px solid var(--var-color); }
+
+.sq9{ border-left: 10px solid var(--var-color); }
+
+.o{
+ position:relative;
+}
+
+.o:after{
+   content:url(../assets/circle.png);
+   font-size: 50px;
+   line-height: 100px;
+   position:absolute;
+   top:10px;
+   left:0;
+   right:0;
+}
+
+.x{
+    position:relative;
+   }
+
+.x:after{
+    content:url(../assets/X.png);
+       font-size: 50px;
+   line-height: 100px;
+   position:absolute;
+   top:10px;
+   left:0;
+   right:0;
+ }
+
+
+ /*Botão restart*/
+ .btn{
+     width: 60px;
+     height: 60px;
+     color:#0f1157;
+     text-align: center;
+     background-color:#f3ef04;
+     border: 2px solid #0f1157;
+     border-radius: 50%;
+     padding: 10px;
+
+     margin-top: 5%;
+
+     cursor:pointer;
+
+     font-size: 30px;
+
+     transition: all 0.5s linear 0.1s;
+ }
+
+ .btn:hover{
+
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color:#0f1157;
+    border: 2px solid #f3ef04;
+    color:#f3ef04;
+    border-radius: 50%;
+    padding: 10px;
+
+    margin-top: 5%;
+
+    cursor:pointer;
+
+    font-size: 30px;
+
+ }
