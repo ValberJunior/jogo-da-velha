@@ -40,7 +40,7 @@ back.addEventListener('click', ()=>{
 
     audio2.play();
     setTimeout(()=>{
-    window.location.replace('../index.html');},1000);
+    window.location.replace('index.html');},1000);
 
 })
 
