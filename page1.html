@@ -11,40 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <!--Fonte do botao-->
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <!--Icones-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
     
 </head>
 <body>
 
+  <!--Conteúdo principal-->
     <section class='container'>
     
+  <!--Audio principal-->    
     <audio  id='audio' autoplay loop>
         <source src='./assets/audio1.mp3' type='audio/mp3'>
     </audio>
-    
+  
+  <!--Div Ativar/Desativar Som-->
     <div class='volumebar'>
        <img src='./assets/volOn.png' id='volume'>
     </div>
-
+  
+  <!--Título-->  
     <h1 id='title'>Escolha seu Player</h1>
-
+  
+  <!--Seletor de Player-->
   <div class='player'>
     <button id='optO' class='btn'><img src='./assets/circle.png' alt='player 1' type='image/png'></button>
     <button id='optX' class='btn'><img src='./assets/x.png' alt='player 2' type='image/png'></button>    
 
    </section>
 
- 
+  <!--Som de efeito para o Botão-->
    <audio  id='audio2'>
     <source src='./assets/bip.mp3' type='audio/mp3'>
    </audio>
-
+  
+  <!--Botão Voltar para o Home-->
    <div class='menu'>
     <button id='back'> VOLTAR</button>
    </div>
    
+
+   <!--Arquivos Script-->
    <script src='./script/game.js'></script>
    <script src='./script/page1.js'></script> 
    <script src='./script/interface.js'></script> 

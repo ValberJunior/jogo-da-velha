@@ -97,6 +97,8 @@ function restoure(){
 } 
 
 
+//Função limpar tabuleiro
+
 function cleanBoard()
   {
 

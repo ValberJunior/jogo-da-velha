@@ -1,5 +1,10 @@
+/*Redefinir o margin e Padding da página*/
+
 *{margin:0;
   padding: 0;}
+
+
+/*Body*/  
 body {
   width: 100vw;
   height: 100vh;
@@ -18,13 +23,14 @@ body {
 
 }
 
+/*Conteúdo Principal*/
 .container{
   width: 350px;
   margin:auto;
 }
 
 
-
+/*Menu*/
 .menu{
   list-style-type: none;
 

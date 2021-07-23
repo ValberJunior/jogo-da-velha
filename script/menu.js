@@ -1,11 +1,13 @@
+//Script Pertencente a página > MENU
 
+//variaveis 
 let home = document.getElementById('op1');
 let restart = document.getElementById('op2');
 let info = document.getElementById('op3');
 let audio = document.getElementById('audio');
 
 
-
+//Eventos
 home.addEventListener('click', ()=>{
     audio.play();
     setTimeout(()=>{

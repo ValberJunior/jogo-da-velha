@@ -1,4 +1,10 @@
+/*FOLHA DE CSS PARA O TABULEIRO DO JOGO*/
+
+
+/*Redefinindo o padding e o margin*/
 *{margin:0; padding:0;}
+
+/*Body*/
 body{
     width: 100vw;
     height: 100vh;
@@ -11,6 +17,7 @@ body{
     text-align: center;
 }
 
+/*Div Principal*/
 .stage{
     background-color:#fdfdfd00;
     width: auto;
@@ -18,6 +25,8 @@ body{
 
     margin-top: 5%;
 }
+
+/*Class Square*/
 .square{
     width:100px;
     height:100px;
@@ -29,6 +38,7 @@ body{
     --var-color:#FFFFFF;
 }
 
+/*personalização da grade para o jogo da velha*/
 .sq1{ border-bottom: 10px solid var(--var-color);
       border-right: 10px solid var(--var-color);}
 
@@ -49,6 +59,8 @@ body{
 
 .sq9{ border-left: 10px solid var(--var-color); }
 
+
+/*Com essas configurações , os elementos inseridos apareceram na tela*/
 .o{
  position:relative;
 }

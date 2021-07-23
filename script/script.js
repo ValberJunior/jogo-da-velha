@@ -1,9 +1,12 @@
+//Variaveis para o index.html
+
 let volume = document.getElementById('volume');
 let audio = document.getElementById('audio');
 let start = document.getElementById('start');
 let audio2 = document.getElementById('audio2');
 
 
+//Evento para Ativar/Desativar o Som
 let sound = true;
 
 volume.addEventListener('click',()=>{

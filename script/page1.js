@@ -1,4 +1,4 @@
-//Interface - interação com html
+//Script Para a Pagina 1
 
 
 //PART 1

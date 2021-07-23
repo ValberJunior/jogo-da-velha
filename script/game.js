@@ -21,7 +21,7 @@ if (gameOver){
 
 //Para impedir que o playertime seja modificado mesmo com o square preenchido - > if antes da condicional principal;
 
-if (gameDraw){
+if (gameDraw){                    //Verificar se há empate
     return gameOver = true;
 }
 
