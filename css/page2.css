@@ -131,14 +131,12 @@ body{
 
  /*Pequena adaptação para versão mobile*/
 
- @media screen and(max-width:450px){
-
+ @media screen and (max-width:450px){
     .stage{
         background-color:#fdfdfd00;
         width: auto;
         margin:auto;
     
-        margin-top: 20%;
-    }
-     
- }
+        margin-top: 20%;   
+        margin-bottom: 10%; }
+}
