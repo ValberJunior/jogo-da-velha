@@ -46,7 +46,6 @@ back.addEventListener('click', ()=>{
 
 //Escolha do player
 
-
 playerO.addEventListener('click',()=>{ 
 
     playerO.style.backgroundColor = 'darkblue';
@@ -69,5 +68,4 @@ playerX.addEventListener('click',()=>{
      return playerTime = 1;
    
 })
-
 
