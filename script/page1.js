@@ -46,6 +46,7 @@ back.addEventListener('click', ()=>{
 
 //Escolha do player
 
+
 playerO.addEventListener('click',()=>{ 
 
     playerO.style.backgroundColor = 'darkblue';
@@ -53,7 +54,7 @@ playerO.addEventListener('click',()=>{
     setTimeout(()=>{
     window.location.replace('../page2.html');},1000);
 
-      return playerTime = 0;
+    localStorage.setItem("JOGADOR_ESCOLHIDO", 0);
       
 
 })
@@ -65,7 +66,7 @@ playerX.addEventListener('click',()=>{
     setTimeout(()=>{
     window.location.replace('../page2.html');},1000);
     
-     return playerTime = 1;
+    localStorage.setItem("JOGADOR_ESCOLHIDO", 1);
    
 })
 
