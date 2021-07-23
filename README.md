@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/84424883/126849924-eec4c892-62dc-4570-
 - Menu interativo;
 - Página Inicial e de escolha do player;
 
-###Estrutura:
+### Estrutura:
 * Home 
 * Seletor de player
 * Tabuleiro do Jogo
