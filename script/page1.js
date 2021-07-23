@@ -51,11 +51,8 @@ playerO.addEventListener('click',()=>{
     playerO.style.backgroundColor = 'darkblue';
     audio2.play();
     setTimeout(()=>{
-    window.location.replace('../page2.html');},1000);
-
-      return playerTime = 0;
-      
-
+    window.location.replace('page2.html');},1000);
+    localStorage.setItem("start", 0);
 })
 
 playerX.addEventListener('click',()=>{
@@ -63,9 +60,7 @@ playerX.addEventListener('click',()=>{
     playerX.style.backgroundColor = 'darkblue';
     audio2.play();
     setTimeout(()=>{
-    window.location.replace('../page2.html');},1000);
-    
-     return playerTime = 1;
-   
+    window.location.replace('page2.html');},1000);  
+    localStorage.setItem("start", 1);
 })
 
