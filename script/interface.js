@@ -34,7 +34,7 @@ function handleClick(event){
   if  (handleMove(position)){ 
 
       setTimeout(()=>{
-          alert('O JOGO ACABOU! \n O VENCEDOR É O JOGADOR '+ (playerTime+1))
+          winner();
       },30);
 
       setTimeout(()=>{
@@ -49,6 +49,15 @@ function handleClick(event){
     },1000);}
                                     
     updateSquares();                                                //Chamarei minha função para atualizar o tabuleiro;
+}
+
+//Para definir o vencedor;
+function winner(){
+  if (playerTime == 0){
+    alert('O JOGO ACABOU! \n O VENCEDOR FOI: 🔴');
+  } else {
+    alert('O JOGO ACABOU! \n O VENCEDOR FOI: ❌')
+  }
 }
 
 //Função para atualizar o tabuleiro:
