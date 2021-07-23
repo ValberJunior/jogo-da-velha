@@ -8,7 +8,7 @@
 
 //variáveis
 let board = ['', '', '', '', '', '', '', '', '']; //Meu tabuleiro com 9 areas;
-let playerTime = localStorage.getItem("JOGADOR_ESCOLHIDO"); //Vez do Jogador > 0 para 'o' e 1 para 'x'.
+let playerTime = localStorage.getItem("Player"); //Vez do Jogador > 0 para 'o' e 1 para 'x'.
 let symbols = ['o','x']; //simbolos do jogo;
 let gameOver = false;  //variavel que indicará o fim do jogo, ela começa false
 let gameDraw = false; // Para verificar se houve empate;

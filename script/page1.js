@@ -54,7 +54,7 @@ playerO.addEventListener('click',()=>{
     setTimeout(()=>{
     window.location.replace('../page2.html');},1000);
 
-    localStorage.setItem("JOGADOR_ESCOLHIDO", 0);
+    localStorage.setItem("Player", 0);
       
 
 })
@@ -66,7 +66,7 @@ playerX.addEventListener('click',()=>{
     setTimeout(()=>{
     window.location.replace('../page2.html');},1000);
     
-    localStorage.setItem("JOGADOR_ESCOLHIDO", 1);
+    localStorage.setItem("Player", 1);
    
 })
 
