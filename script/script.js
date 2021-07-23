@@ -26,5 +26,5 @@ volume.addEventListener('click',()=>{
 start.addEventListener('click', ()=>{
     audio2.play();
     setTimeout(()=>{
-    window.location.replace('../page1.html');},1000);
+    window.location.replace('page1.html');},1000);
 })

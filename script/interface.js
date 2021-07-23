@@ -38,14 +38,14 @@ function handleClick(event){
       },30);
 
       setTimeout(()=>{
-        window.location.replace('../menu.html')              //Após o vencedor ser anúnciado, ele joga pro menu do Jogo
+        window.location.replace('menu.html')              //Após o vencedor ser anúnciado, ele joga pro menu do Jogo
     },1000);
   }  
      else if(handleMove(position) && gameDraw){
       setTimeout(() => { alert ("DEU VELHA!");}, 10);
     
       setTimeout(()=>{
-        window.location.replace('../menu.html')              //Após o vencedor ser anúnciado, ele joga pro menu do Jogo
+        window.location.replace('menu.html')              //Após o vencedor ser anúnciado, ele joga pro menu do Jogo
     },1000);}
                                     
     updateSquares();                                                //Chamarei minha função para atualizar o tabuleiro;
