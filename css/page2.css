@@ -128,3 +128,17 @@ body{
     font-size: 30px;
 
  }
+
+ /*Pequena adaptação para versão mobile*/
+
+ @media screen and(max-width:450px){
+
+    .stage{
+        background-color:#fdfdfd00;
+        width: auto;
+        margin:auto;
+    
+        margin-top: 20%;
+    }
+     
+ }
